@@ -1,3 +1,9 @@
-.classpath
-target/classes/META-INF/maven/dailyninja.in/api-dev/pom.properties
-target/classes/META-INF/maven/dailyninja.in/api-dev/pom.xml
+*.classpath
+target/classes/META-INF/maven/*
+target/classes/META-INF/maven/*
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
