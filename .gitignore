@@ -2,6 +2,8 @@ target/
 bin/
 out/
 logs/
+application.properties
+*.properties
 **/logs
 *.log
 *.com

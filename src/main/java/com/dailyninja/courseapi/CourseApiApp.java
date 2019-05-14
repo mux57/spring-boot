@@ -9,8 +9,8 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
 @ComponentScan("com.dailyninja.*")
-@EntityScan("com.dailyninja.topic")
-@EnableJpaRepositories("com.dailyninja.topic")
+@EntityScan(basePackages = {"com.dailyninja.topic","com.dailyninja.course"})
+@EnableJpaRepositories(basePackages = {"com.dailyninja.topic","com.dailyninja.course"})
 @EnableAutoConfiguration
 public class CourseApiApp {
 	
